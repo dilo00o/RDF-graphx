@@ -20,7 +20,6 @@
 /path/to/ntriplefile
 /path/to/outputgraph
 ```
-```
 
 
 ## Compute closeness centrality analysis on GraphX graph
@@ -28,7 +27,7 @@
 ```
 . / bin / spark−submit −−classorg.orion.algo.ClosenessCentralityMeasurement \
 −−master local [  ] \
-/path/to/runner.j a r \
+/path/to/runner.jar \
 /path/to/graph
 /path/to/output
 ```
